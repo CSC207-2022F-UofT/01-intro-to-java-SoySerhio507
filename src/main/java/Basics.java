@@ -2,7 +2,7 @@
  * This file contains a few exercises to familiarize you with Java.
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO
- *
+ * <p>
  * For your convenience, we have also included references to the
  * relevant readings for each task.
  */
@@ -12,9 +12,9 @@ import org.w3c.dom.ls.LSOutput;
 /**
  *  1. In Java, no code can exist outside a class. Unlike Python which uses
  *    functions, all code in Java uses methods.
- *
+ * <p>
  *    For this exercise, all of our code is within the Basics class.
- *
+ * <p>
  *    (Relevant reading: 1.1.1. Defining classes)
  */
 public class Basics {
@@ -27,10 +27,10 @@ public class Basics {
      *        public static void main(final String[] args){
      *            // Code goes in here
      *        }
-     *
+     * <p>
      *    When you run this file (Basics.java), the code within the main
      *    method is run.
-     *
+     * <p>
      *    (Relevant reading: 1.1.2. Defining methods)
      */
     public static void main(final String[] args) {
@@ -112,24 +112,24 @@ public class Basics {
      *  6. Below is a method named split which returns a String,
      *    as indicated by the 'String' part of the header. It takes one
      *    parameter named to_split, whose type is also a String.
-     *
+     * <p>
      *    This block of code above the method is called the doc comment -- this
      *    is equivalent to docstrings in Python.
-     *
+     * <p>
      *    Below, we provide descriptions of what the parameters are and details
      *    about what is returned.
-     *
+     * <p>
      * Create a String named 'ret' and get the first letter of
      * each word inside to_string. to_string is a String containing exactly
      * 7 words, separated by spaces.
-     *
+     * <p>
      * You may want to use String.split() and String.charAt() methods.
      * See 1.5.2. APIs for their APIs.
-     *
+     * <p>
      * For example, calling the below method on the string:
      *    "Idol Long Oolong Vertical Europe University Toyota"
      * should return "ILOVEUT"
-     *
+     * <p>
      * (Relevant readings: 1.4. Strings and 1.4.4. StringBuilder.
      *                     1.8.2. for Loops may be useful too.)
      *
@@ -158,11 +158,11 @@ public class Basics {
      * 7. Below is a method that takes in an integer array (similar to a list
      *    of integers). The method's name is 'oddSum' and it returns an int
      *    as indicated by the 'int' in the method header.
-     *
+     * <p>
      * Return the sum of all integers at odd indices in the given array.
      * If there are no items at odd indices (e.g. a list with 0 or 1 elements),
      * return 0.
-     *
+     * <p>
      * (Relevant readings: 1.6. Arrays and 1.8.2. for Loops)
      *
      * @param arr    An array of integers
